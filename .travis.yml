@@ -3,7 +3,7 @@ osx_image: xcode12.5
 
 install:
   - bundle install
-  - pod repo update > /dev/null
+  - pod repo update
   - ./install.sh
 
 script:
