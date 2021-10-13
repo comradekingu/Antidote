@@ -1,4 +1,3 @@
-# THIS PROJECT IS NO LONGER MAINTAINED
 
 ![](https://i.imgur.com/Co41uBI.png)
 
