@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode9.3
+osx_image: xcode12.5
 
 install:
   - bundle install
@@ -9,5 +9,3 @@ install:
 script:
   - bundle exec fastlane test
 
-after_success:
-  - bash <(curl -s https://codecov.io/bash) -J 'Antidote'
