@@ -3,8 +3,8 @@ osx_image: xcode12.5
 
 install:
   - bundle install
-  - pod repo update
-  - ./install.sh
+  - travis_wait 30 pod repo update
+  - travis_wait 30 ./install.sh
 
 script:
   - bundle exec fastlane test
