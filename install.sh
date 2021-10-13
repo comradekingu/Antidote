@@ -1,6 +1,7 @@
 #!/bin/sh
 
-bundle install
-
+echo git submodule update --init
 git submodule update --init
-bundle exec pod install
+
+echo bundle exec pod install --verbose
+bundle exec pod install --verbose
